@@ -1,0 +1,25 @@
+.icon {
+    animation: color-change 2.5s infinite, rotate 2.5s infinite;
+}
+
+.loadingText {
+    animation: color-change 2.5s infinite
+}
+
+div.statusContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+@keyframes color-change {
+    0% {color: white;}
+    50% {color: rgb(112, 215, 255)}
+    100% {color: white;}
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}

@@ -1,0 +1,12 @@
+
+button.todo-item-img {
+  background: transparent;
+  border: none;
+}
+  
+button.todo-item-img:hover {
+  transform: scale(1.3);
+}
+
+
+  

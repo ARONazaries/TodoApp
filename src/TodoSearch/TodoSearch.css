@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+input.createTodo {
+    border-radius: 10px;
+    border: 2px solid  rgb(112, 215, 255);
+    width: 70%;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+}
