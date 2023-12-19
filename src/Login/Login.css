@@ -1,0 +1,34 @@
+div.loginContainer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.147);
+}
+
+div.emailContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+div.passContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+
+
+input.formInput {
+    width: 70%;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-family: 'F1', sans-serfif;
+    text-align: center;
+    resize: none;
+}

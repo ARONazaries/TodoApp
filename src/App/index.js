@@ -1,7 +1,9 @@
 import React from 'react';
+
 import { AppUI } from './AppUI'
 import { TodoProvider } from '../TodoContext';
-import './App.css'
+import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 
 // const defaultTodos = [
@@ -20,9 +22,11 @@ function App() {
   
 
   return (
-    <TodoProvider>
-      <AppUI />
-    </TodoProvider>
+    <BrowserRouter>
+      <TodoProvider>
+        <AppUI />
+      </TodoProvider>
+    </BrowserRouter>
   )
 }
 

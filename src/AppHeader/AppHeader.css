@@ -1,12 +1,17 @@
 header {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: rgb(36, 36, 36);
+    width: 100%;
 }
 
 h1 {
+    justify-self: center;
     color: rgb(112, 215, 255);
+}
+
+figure {
+    justify-self: flex-start;
 }
 
 figure.header-logo {

@@ -1,0 +1,20 @@
+div.tableContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+table {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th, td:first-child {
+    background-color: rgba(169, 255, 249, 0.208);
+}

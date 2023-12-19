@@ -8,7 +8,7 @@ function AppHeader() {
                 <FaReact size={"4em"} color='rgb(112, 215, 255)'/>
             </figure>
             <h1>
-                ToDos Application
+                School Application
             </h1>
         </header>
     )
